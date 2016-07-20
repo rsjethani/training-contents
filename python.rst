@@ -2,8 +2,6 @@
 Python Training Contents
 ========================
 
-:Version: 0.1.0
-
 
 **Introduction**
 

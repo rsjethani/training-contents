@@ -2,9 +2,6 @@
 Git Training Contents
 ========================
 
-:Version: 0.1.0
-
-
 
 **What is Version Control**
 
