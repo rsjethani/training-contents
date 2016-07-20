@@ -107,6 +107,7 @@ Python Training Contents
 - Database Access
 - Web Programming
 
+
 **Let's put it all to use**
 
 *A small commandline project handling CRUD operations on a database completed 

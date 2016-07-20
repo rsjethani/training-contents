@@ -1,0 +1,19 @@
+#!/bin/bash
+
+prog_name="generate-pdf"
+
+usage(){
+cat << SS
+	Usage: $prog_name [file...]
+SS
+}
+
+if [ $# -eq 0 ]; then
+	usage
+	exit
+fi
+
+for file; do
+	name=$(echo $file | cut -d "." -f 1).pdf
+	rst2pdf -o $name $file
+done
